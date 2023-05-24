@@ -1,0 +1,29 @@
+
+form{
+    margin-left: 150px;
+}
+form label{
+    font-size: 15px;
+    color:#000 ;
+}
+
+input{
+    color: #dc392d;
+    font-size: 20px;
+}
+
+.check__box{
+    margin-top: 20px;
+}
+
+a{
+    font-size: 15px;
+    color: #dc392d;
+}
+
+.login-bottom{
+    background-color: #dc392d;
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
