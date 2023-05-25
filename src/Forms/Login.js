@@ -20,12 +20,12 @@ function Login() {
             </div>
           <div className='login-bottom'>
             <div class="mb-3 form-check">
-              <input type="checkbox" className="form-check-input check__box" id="exampleCheck1" />
+              <input type="checkbox" className="form-check-input check__box border-danger" id="exampleCheck1" />
               <label className=" form-check-label " for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-danger">Submit</button>
           </div>
-          
+          <p className='rules'>This site is protected by reCAPTCHA and the Google <a href='https://policies.google.com/privacy'>Privacy Policy</a> and <a href='https://policies.google.com/terms'>Terms of Service</a> apply.</p>
         </form>
         </div>
       </div>

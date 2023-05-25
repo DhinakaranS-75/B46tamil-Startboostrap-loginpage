@@ -22,8 +22,31 @@ a{
 }
 
 .login-bottom{
-    background-color: #dc392d;
     display: flex;
     justify-content: space-between;
     height: 55px;
+}
+
+.login-bottom button{
+    width: 100px;
+    height: 55px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rules{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.rules a{
+    text-decoration: none;
+    color: #dc392d;
+}
+
+.rules a:hover{
+    text-decoration: underline;
 }
